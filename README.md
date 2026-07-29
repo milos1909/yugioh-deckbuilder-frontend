@@ -2,7 +2,7 @@
 
 Frontend application for a **Yu-Gi-Oh! Deck Builder** that allows users to search cards, view card information, create decks, and manage their personal card collection.
 
-This repository contains the client-side application built with React.
+This repository contains the client-side application built with Next.js and React.
 
 ## Features
 
@@ -14,8 +14,9 @@ This repository contains the client-side application built with React.
 
 ## Technologies
 
+- Next.js
 - React
-- JavaScript
+- TypeScript
 - CSS
 - Axios
 - React Router
@@ -46,4 +47,10 @@ npm run dev
 
 ```sh
 npm run build
+```
+
+### Start Production Server
+
+```sh
+npm start
 ```
