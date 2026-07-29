@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Yu-Gi-Oh! Deck Builder Frontend
 
-## Getting Started
+Frontend application for a **Yu-Gi-Oh! Deck Builder** that allows users to search cards, view card information, create decks, and manage their personal card collection.
 
-First, run the development server:
+This repository contains the client-side application built with React.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Features
+
+- Search Yu-Gi-Oh! cards
+- View detailed card information
+- Build and manage decks
+- Manage personal card collection
+- Communication with backend REST API
+
+## Technologies
+
+- React
+- JavaScript
+- CSS
+- Axios
+- React Router
+
+## Backend
+
+This frontend application communicates with a Spring Boot backend API.
+
+Backend repository:
+
+[Yu-Gi-Oh! Deck Builder Backend](https://github.com/milos1909/yugioh-deckbuilder-backend)
+
+## Project Setup
+
+### Install dependencies
+
+```sh
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Run Development Server
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```sh
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Build for Production
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```sh
+npm run build
+```
